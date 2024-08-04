@@ -1,0 +1,92 @@
+h1 { 
+    color: yellowgreen; text-align: center;
+}
+h6 {
+    color: blueviolet;
+}
+
+th{
+    color: red; text-align: left;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+td{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.font{
+    font-family:  Helvetica, sans-serif;
+    font-size: 20px;
+    color: yellow;
+}
+
+#foo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    color: yellow;
+    font-weight: bold;
+}
+
+button{
+    background-color: black; 
+    color: beige;
+    font-size: 30px;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+body{
+   @media (min-width:600px)
+   {
+    background-color: chartreuse;
+   }
+   @media (max-width:599px)
+   {
+    background-color: aqua;
+   }
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container>div{
+    background-color: red;
+    font-size: 16px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#grid{
+    background-color: blueviolet;
+    display: grid;
+    padding: 10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+   
+}
+
+.griditem{
+    background-color: orange;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+  
+}
